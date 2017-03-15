@@ -1,0 +1,21 @@
+<div class="modal-body clearfix">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td width="18%" class="left">
+                <div class="wrap-img">
+                    <div class="circle">
+                        <i class="gicon" ng-class="vm.iconClass"></i>
+                    </div>
+                </div>
+            </td>
+            <td width="82%">
+                <div class="modal-wrap-text"> 
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" ng-click="vm.close()">&times;</button>
+                    <h3 ng-bind="vm.title"></h3>
+                    <p id="skin-error-message-text" ng-bind="vm.message"></p>
+                    <center><a class="btn btn-log green" data-dismiss="modal" ng-click="vm.close()">OK</a></center>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
